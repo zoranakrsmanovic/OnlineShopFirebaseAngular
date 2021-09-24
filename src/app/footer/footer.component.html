@@ -1,0 +1,33 @@
+<section>
+    <div id="footer" fxLayoutAlign="space-evenly center">
+
+        <ul>
+            <li><a *ngIf="!loginService.isUserLoggedIn()" routerLink="/singup" >Singup</a></li>
+            <li><a *ngIf="!loginService.isUserLoggedIn()" routerLink="/login">Login</a></li>
+            <li> <a  routerLink="/cart">Cart</a></li>
+            <li> <a *ngIf="loginService.isUserLoggedIn()" routerLink="/logout">Logout</a></li>
+        </ul>
+        <ul>
+            <li><a  routerLink="/products" >All products</a></li>
+            <li><a *ngIf="loginService.isUserLoggedIn()" routerLink="/profile">Profile</a></li>
+            <li> <a  routerLink="/">Home</a></li>
+           
+        </ul>
+       
+        <div id="aboutUs" fxHide.md fxHide.s fxHide.sm>
+            <h3>About us</h3>
+            <p id="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec risus nibh, luctus sit amet dui ut, scelerisque gravida nisi. Aliquam sed nisl pulvinar, faucibus ex eu, fringilla ligula. Cras consequat laoreet tortor fringilla aliquam. Pellentesque tempus, metus viverra volutpat viverra, nunc turpis ornare ligula, id aliquet enim mi ut risus. Phasellus ac feugiat felis. Maecenas urna leo, pretium quis facilisis sit amet, finibus et eros.
+             Nunc commodo erat id tellus sodales, sit amet scelerisque ante viverra.</p>
+        </div>
+        <div id="contact">
+          
+            <ul>
+                <li><p>Email: home@gmail.com</p></li>
+                <li><p>Address: Cara Dušana 86, 11000 Beograd</p></li>
+                <li><p>Phone number: +381 60 0977297</p></li>
+               
+            </ul> 
+        </div>
+      
+    </div>
+</section>

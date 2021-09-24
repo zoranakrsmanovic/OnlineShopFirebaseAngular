@@ -1,0 +1,348 @@
+@import 'https://fonts.googleapis.com/css?family=Rubik+Mono+One';
+@import url('https://fonts.googleapis.com/css?family=Titan+One');
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#manFromTheScreen{
+    animation: man 4s infinite ease-in-out;
+    transform-origin: bottom;
+    transform-box: fill-box;
+    
+}
+@keyframes man{
+  
+    0% {transform: rotateZ(0) translateX(0px) translateY(0px);}
+    50% { transform: rotateZ(0) translateX(-3px) translateY(-3px);}
+    100% {transform: rotateZ(0) translateX(0px) translateY(0px);}
+}
+#mansShadow{
+    animation: shadow 4s infinite ease-in-out;
+    transform-origin: bottom;
+    transform-box: fill-box;
+    
+}
+@keyframes shadow{
+  
+    0% {transform: rotateZ(0) translateX(0px) translateY(0px);}
+    50% { transform: rotateZ(0) translateX(-3px) translateY(-3px);}
+    100% {transform: rotateZ(0) translateX(0px) translateY(0px);}
+}
+
+#bubble{
+    animation: bubble 5s  infinite linear ;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes bubble{
+    0% {transform: rotateZ(0) translateX(0px) translateY(-2px); opacity: 0;}
+    10%{opacity: 0;}
+    20%{opacity: 0.5;}
+    30%{ opacity: 1;}
+    40%{opacity: 1;}
+    50% { transform: rotateZ(0deg) translateX(0px) translateY(-15px); opacity: 1;}
+    60% {opacity: 1;}
+    70% {opacity: 0.5;}
+    80% {opacity: 0;}
+    90% {opacity: 0;}
+    100% {transform: rotateZ(0deg) translateX(0px) translateY(-45px); opacity: 0;}
+
+}
+
+
+
+
+/*
+
+#bubbles-left-three{
+    animation: bubbles1 3s infinite ease-in-out;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes bubbles1{
+  
+    0% {transform: rotateZ(0) translateX(0) translateY(-1px);}
+    50% { transform: rotateY(-7deg) translateX(-4px) translateY(-8px);}
+    100% {transform: rotateZ(0) translateX(0) translateY(-1px);}
+}
+
+#bubbles-right-two{
+    animation: bubbles2 3s infinite ease-in-out;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes bubbles2{
+  
+    0% {transform: rotateZ(0) translateX(0) translateY(-1px);}
+    50% { transform: rotateY(-7deg) translateX(0px) translateY(9px);}
+    100% {transform: rotateZ(0) translateX(0) translateY(-1px);}
+}
+#bubbles-left-two-top{
+    animation: bubbles3 3s infinite ease-in-out;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes bubbles3{
+  
+    0% {transform: rotateZ(0) translateX(0) translateY(-1px);}
+    50% { transform: rotateY(-20deg) translateX(3px) translateY(9px);}
+    100% {transform: rotateZ(0) translateX(0) translateY(-1px);}
+}
+
+#coffee{
+    animation: mug 2s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes mug{
+    0% {transform: rotateZ(0) translateX(0) translateY(-1px);}
+    50% { transform: rotateY(-25deg) translateX(1px) translateY(2px);}
+    100% {transform: rotateZ(0) translateX(0) translateY(-1px);}
+}
+#pig{
+    animation: pig 6s infinite ease-in-out;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes pig{
+    0% {transform: rotateZ(0) translateX(0px) translateY(0px);}
+    50% { transform: rotateY(360deg) translateX(0px) translateY(0px);}
+    100% {transform: rotateZ(0) translateX(0xp) translateY(0px);}
+}
+*/
+
+
+.words {
+    
+    color: #fafafa;
+    font-size: 0;
+    line-height: 0.5;
+    font-family: 'Rubik Mono One', sans-serif;
+    
+    text-align: center;
+    span {
+      font-size: 130px;
+      display: inline-block;
+      animation: move 2s ease-in-out infinite;
+      &:nth-child(2) { animation-delay: 0.5s; }
+      &:nth-child(3) { animation-delay: 1.0s; }
+      &:nth-child(4) { animation-delay: 1.5s; }
+    }
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translate(-33%, 0);
+    }
+    50% {
+      text-shadow: 0 15px 40px rgba(black, 0.6);
+    }
+    100% {
+      transform: translate(33%, 0);
+    }
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+
+ 
+  
+
+#svgwrapper{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+     background-color: #f59a6d;
+    float: right;
+    width: 50%;
+    height: 90%;
+    border-bottom-left-radius: 30%;
+    border-top-left-radius: 30%;
+    
+    
+}
+svg{
+    margin-top: 3%;
+    float: right;
+    margin-right: 0;
+   
+   
+}
+#welcome{
+    height: 100%;
+    width: 50%;
+    float: left;
+   
+    
+}
+h1{
+    font-family: 'Poiret One', cursive;
+    font-size: 50px;
+    
+}
+p{
+    width: 60%;
+    text-align: justify;
+    text-indent: 50px;
+    font-family: 'Poiret One', cursive;
+    font-weight: 600;
+    
+}
+button{
+    background: linear-gradient(90deg, rgba(222,36,74,1) 0%, rgba(252,146,70,1) 100%);
+    width: 150px;
+    color: white;
+    
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+#svgAnimation{
+   
+    height: 90%;
+    width: 100%;
+    
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+   
+}
+    
+    /* Smartphones (landscape) ----------- */
+    @media only screen and (min-width : 321px) {
+        
+    }
+    
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+    /* Styles */
+    }
+    
+    /* iPads (portrait and landscape) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    /* Styles */
+    }
+    
+    /* iPads (landscape) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    /* Styles */
+    }
+    
+    /* iPads (portrait) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    /* Styles */
+    }
+    /**********
+    iPad 3
+    **********/
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+    }
+    /* Desktops and laptops ----------- */
+    @media only screen  and (min-width : 1224px) {
+    /* Styles */
+    }
+    
+    /* Large screens ----------- */
+    @media only screen  and (min-width : 1824px) {
+    /* Styles */
+    }
+    
+    /* iPhone 4 ----------- */
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+    }
+    
+    /* iPhone 5 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    }
+    
+    /* iPhone 6, 7, 8 ----------- */
+    @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    }
+    
+    /* iPhone 6+, 7+, 8+ ----------- */
+    @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    }
+    
+    /* iPhone X ----------- */
+    @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+        
+    }
+    
+    @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    
+    }
+    
+    /* iPhone XS Max, XR ----------- */
+    @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
+    /* Samsung Galaxy S3 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    }
+    
+    /* Samsung Galaxy S4 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
+    /* Samsung Galaxy S5 ----------- */
+    @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
+    

@@ -1,0 +1,22 @@
+::ng-deep .mat-focused .mat-form-field-label {
+    /*change color of label*/
+    color:rgba(222,36,74,1) !important;
+   }
+  
+   ::ng-deep.mat-form-field-underline {
+    /*change color of underline*/
+    background: linear-gradient(90deg, rgba(222,36,74,1) 0%, rgba(252,146,70,1) 100%) !important;
+
+  } 
+  
+  ::ng-deep.mat-form-field-ripple {
+   /*change color of underline when focused*/
+   background: linear-gradient(90deg, rgba(222,36,74,1) 0%, rgba(252,146,70,1) 100%) !important;
+  }
+
+#logo{
+  height: 236px;
+ 
+  margin-top: 1px;
+  margin-left: -40px;
+}

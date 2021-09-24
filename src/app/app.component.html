@@ -1,0 +1,62 @@
+<mat-sidenav-container>
+    <mat-sidenav #sidenav opened="false">
+        <mat-nav-list>
+            <a class="sidenavLink" mat-list-item routerLink="/" (click)="sidenav.close()">
+                <mat-icon class="sidenavIcon">home</mat-icon>
+                 Home
+            </a>
+            <a  *ngIf="!loginService.isUserLoggedIn()" class="sidenavLink" mat-list-item routerLink="/singup" (click)="sidenav.close()">
+                <mat-icon class="sidenavIcon">app_registration</mat-icon>
+                 Singup
+            </a>
+            <a  *ngIf="!loginService.isUserLoggedIn()" class="sidenavLink" mat-list-item routerLink="/login" (click)="sidenav.close()">
+                <mat-icon class="sidenavIcon">login</mat-icon>
+                 Login
+            </a>
+            <a class="sidenavLink" mat-list-item routerLink="/products" (click)="sidenav.close()">
+                <mat-icon class="sidenavIcon">shopping_bag</mat-icon>
+                 All products
+            </a>
+            <a class="sidenavLink" mat-list-item routerLink="/cart" (click)="sidenav.close()">
+                <mat-icon class="sidenavIcon">shopping_cart</mat-icon>
+                 Cart
+            </a>
+            
+            <a *ngIf="loginService.isUserLoggedIn()" class="sidenavLink" mat-list-item routerLink="/profile" (click)="sidenav.close()">
+                <mat-icon class="sidenavIcon">account_circle</mat-icon>
+                 Profile
+            </a>
+            <a *ngIf="loginService.isUserLoggedIn()" class="sidenavLink" mat-list-item routerLink="/logout" (click)="sidenav.close()">
+                <mat-icon class="sidenavIcon">logout</mat-icon>
+                 Logout
+            </a>
+           
+            
+        </mat-nav-list>
+    </mat-sidenav>
+
+    <mat-sidenav-content>
+<mat-toolbar color="primary">
+    <div>
+        <button class="menuButton" mat-button (click)="sidenav.toggle()">
+            <mat-icon>menu</mat-icon>
+        </button>
+    </div>
+    <div>
+        <a routerLink="/"> Onlineshop<img id="logo"  src=""></a>
+    </div>
+    <div fxFlex fxLayoutAlign="end" fxLayoutGap="15px" fxHide.xs>
+        <a *ngIf="!loginService.isUserLoggedIn()" routerLink="/singup" ><mat-icon class="icons">app_registration</mat-icon>Singup</a>
+        <a *ngIf="!loginService.isUserLoggedIn()" routerLink="/login"><mat-icon class="icons" >login</mat-icon>Login</a>
+        <a  routerLink="/cart"><mat-icon class="icons"  >shopping_cart</mat-icon>Cart</a>
+        <a *ngIf="loginService.isUserLoggedIn()" routerLink="/logout"><mat-icon class="icons"  >logout</mat-icon>Logout</a>
+
+    </div>
+    
+
+</mat-toolbar>
+
+    <router-outlet></router-outlet>
+  
+</mat-sidenav-content>
+</mat-sidenav-container>

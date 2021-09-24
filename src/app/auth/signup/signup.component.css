@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital@1&family=Cantarell&family=Red+Hat+Display:ital@0;1&display=swap');
+#stepperWrapper{
+    width: 100%;
+}
+#subButton{
+    background: linear-gradient(90deg, rgba(222,36,74,1) 0%, rgba(252,146,70,1) 100%);
+    width: 120px;
+    color: white;
+    font-family: 'Poiret One', cursive;
+    
+
+}
+
+h3{
+    font-family: 'Cantarell', sans-serif;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.521);
+}
+
+
+.matInput{
+    width: 400px !important;
+}
+#formSection{
+   margin-top: 4%;
+    height: 93%;
+    width: 50%;
+    float: right;
+   
+}
+#svgSection{
+    float:left;
+    
+    width: 50%;
+    
+}
+
+#lock1{
+    animation: lock 4s infinite ease-in-out;
+    transform-origin: top;
+    transform-box: fill-box;
+    
+}
+@keyframes lock{
+  
+    0% {transform: rotateZ(0) translateX(0px) translateY(-10px);}
+    50% { transform: rotateZ(10deg) translateX(-3px) translateY(-20px);}
+    100% {transform: rotateZ(0) translateX(0px) translateY(-10px);}
+}
+
+#like{
+    animation: like 4s infinite linear;
+    transform-origin: bottom;
+    transform-box: fill-box;
+    
+    
+}
+@keyframes like{
+  
+    0% {transform: rotateZ(0) translateX(-2px) translateY(-15px); opacity: 0;}
+    10%{opacity: 0;}
+    20%{opacity: 0.5;}
+    30%{ opacity: 1;}
+    40%{opacity: 1;}
+    50% { transform: rotateZ(0deg) translateX(-8px) translateY(-15px); opacity: 1;}
+    60% {opacity: 1;}
+    70% {opacity: 0.5;}
+    80% {opacity: 0;}
+    90% {opacity: 0;}
+    100% {transform: rotateZ(0deg) translateX(-15px) translateY(-15px); opacity: 0;}
+
+
+}
+
+
+
+
+
+

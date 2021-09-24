@@ -1,0 +1,187 @@
+
+.example-card {
+    max-width: 100%; 
+    height: 400px;
+  }
+h2{
+    font-family: 'Spartan', sans-serif;
+
+}
+img{
+    height: 250px;
+   
+}
+ul{
+    list-style-type: none;
+}
+
+.cat1{
+  margin-top: 10px;
+  margin-left: -30px;
+   height: 50px;
+    width: 150px;
+    font-size: 20px;
+    font-family: 'Spartan', sans-serif;
+}
+.cat2{
+    margin-top: 10px;
+    margin-left: -30px;
+    height: 50px;
+     width: 150px;
+     font-size: 20px;
+     font-family: 'Spartan', sans-serif;
+ }
+
+ 
+  
+  #product_image{
+     height: 200px ;
+  }
+  #matlist a{
+      color: #878787;
+    font-family: 'Spartan', sans-serif;
+      float: left;
+      font-size: 20px;
+  }
+
+  #matlist a:hover{
+    color: rgba(222,36,74,1)
+}
+
+ #cat{
+     float: left;
+     margin-left: 5px;
+ }
+ #wrapper{
+     margin-top: 20px;
+    
+ }
+ #price{
+     
+     font-weight: bold;
+     font-size: 20px;
+ }
+ #add_to_cart{
+     float: right;
+     background: linear-gradient(90deg, rgba(222,36,74,1) 0%, rgba(252,146,70,1) 100%);
+     width: 150px;
+     height: 35px;
+     color: white;
+     font-family: 'Poiret One', cursive;
+ }
+#cartIcon{
+    font-size: 5px;
+}
+#searchButton{
+        float: left;
+        width: 10px;
+        margin-left: 5px;
+        margin-top: 10px;
+        background: transparent;
+        box-shadow: none;
+        height: 30px;
+        color: rgba(222,36,74,1);
+}
+#mat-input{
+    width: 400px;
+}
+#space{
+    height: 1px;
+}
+#wrappSearchandProducts{
+   width: auto;
+}
+#searchBarWrapp{
+    margin-top: 10px;
+    float: right;
+    height: 60px;
+   
+    width: 100%;
+
+    
+}
+h2{
+    margin-left: 10px;
+    border-bottom: 1px solid #ccc;
+    width: 70%;
+}
+
+#sort{
+    margin-top: 10px;
+    height: 30px;
+    margin-right: 10px;
+}
+#sort :hover{
+    background: linear-gradient(90deg, rgba(222,36,74,1) 0%, rgba(252,146,70,1) 100%);
+    color: white;
+}
+
+.sorttoggle{
+    height: 33px;
+}
+
+#psort{
+    float: left;
+    height: 30px;
+    margin-top: 18px;
+    margin-right: 10px;
+    font-family: 'Spartan', sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+mat-icon{
+    margin-bottom: 5px;
+}
+#searchButton a{
+    color: rgba(222,36,74,1) ;
+    text-decoration: none;
+   
+
+}
+#product_title{
+    max-width: 100%;
+    font-size: 18px;
+    height: 55px;
+}
+#row-wrapp{
+    width: 84%;
+}
+
+.custom-pagination .paginator-nav-btns {
+    margin: 0px 10px;
+    font-weight: bold;
+   
+  }
+  
+  .custom-pagination > div.current {
+    background-color: rgb(223, 19, 60);
+  }
+  
+  .custom-pagination > div {
+    border: 2px solid rgba(222,36,74,1);
+    margin-right: 3px;
+    border-radius: 30px;
+    cursor: pointer;
+    flex: 1;
+    font-size: 18px;
+    text-align: center;
+    color: antiquewhite;
+    
+  }
+  
+  .custom-pagination {
+    display: flex;
+    max-width: 100px;
+    margin: auto;
+  }
+
+  #space{
+      height: 30px;
+      
+  }
+  #brand{
+      margin-top: 50px;
+  }
+  
+ 

@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Thasadith&display=swap');
+
+
+
+.user_information{
+    box-shadow: 10px 10px 60px -17px rgba(0,0,0,0.87);
+    -webkit-box-shadow: 10px 10px 60px -17px rgba(0, 0, 0, 0.87);
+    -moz-box-shadow: 10px 10px 60px -17px rgba(0,0,0,0.87);
+    background: linear-gradient(90deg, rgba(222,36,74,1) 0%, rgba(252,146,70,1) 100%);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 70% ;
+    margin:25px;
+    
+  
+}
+#orders{
+    float: left;
+    width: 50%;
+}
+#profile{
+   float: left;
+    height: 50%;
+    margin: 30px;
+    width: 40%;
+    border-radius: 20px;
+   
+}
+#welcome{
+    font-family: 'Thasadith', sans-serif;
+    color:whitesmoke;
+   margin-top: 30px;
+}
+.detail{
+    color: whitesmoke;
+    margin: 30px;
+    font-size: 20px;
+}
+.card{
+    font-family: 'Poiret One', cursive;
+    font-size: 30px;
+    margin-top: 30px;
+    color: rgba(245, 245, 245, 0.884);
+    border-bottom: 1px solid rgba(223, 134, 51, 0.623) ;
+}
+#formUpdate {
+   margin-left: 20px;
+   margin-bottom: 20px;
+   width: 70%;
+   margin-right: 70px;
+  
+}
+#update{
+    font-family: 'Poiret One', cursive;
+    font-size: 30px;
+    margin-top: 30px;
+    color: rgba(83, 58, 63, 0.527);
+    
+   
+}
+#userdetail{
+    font-family: 'Thasadith', sans-serif;
+   margin-top: 50px;
+   
+}
+button{
+    font-family: 'Poiret One', cursive;
+    background: linear-gradient(90deg,  rgba(252,146,70,1) 0%, rgba(222,36,74,1) 120%);
+    color: whitesmoke;
+}
+
+ /* iPhone 5 ----------- */
+ @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+        #orders{
+            float: left;
+            width: 100%;
+        }
+        #profile{
+           float: left;
+            height: 50%;
+            margin: 30px;
+            width: 100%;
+            border-radius: 20px;
+           
+        }
+    }
+    
+    /* iPhone 6, 7, 8 ----------- */
+    @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+        #orders{
+            float: left;
+            width: 100%;
+        }
+        #profile{
+           float: left;
+            height: 50%;
+            margin: 30px;
+            width: 100%;
+            border-radius: 20px;
+           
+        }
+    
+    }
+    
+    /* iPhone 6+, 7+, 8+ ----------- */
+    @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+        #orders{
+            float: left;
+            width: 100%;
+        }
+        #profile{
+           float: left;
+            height: 50%;
+            margin: 30px;
+            width: 100%;
+            border-radius: 20px;
+           
+        }
+    
+    }
+    
+    /* iPhone X ----------- */
+    @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+        #orders{
+            float: left;
+            width: 100%;
+        }
+        #profile{
+           float: left;
+            height: 50%;
+            margin: 30px;
+            width: 100%;
+            border-radius: 20px;
+           
+        }
+    }
+    
+    /* iPhone XS Max, XR ----------- */
+    @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+        #orders{
+            float: left;
+            width: 100%;
+        }
+        #profile{
+           float: left;
+            height: 50%;
+            margin: 30px;
+            width: 100%;
+            border-radius: 20px;
+           
+        }
+    }
+    
+    /* Samsung Galaxy S3 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+        #orders{
+            float: left;
+            width: 100%;
+        }
+        #profile{
+           float: left;
+            height: 50%;
+            margin: 30px;
+            width: 100%;
+            border-radius: 20px;
+           
+        }
+    }
+    
+    /* Samsung Galaxy S4 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+        #orders{
+            float: left;
+            width: 100%;
+        }
+        #profile{
+           float: left;
+            height: 50%;
+            margin: 30px;
+            width: 100%;
+            border-radius: 20px;
+           
+        }
+    }
+    
+    /* Samsung Galaxy S5 ----------- */
+    @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+        #orders{
+            float: left;
+            width: 100%;
+        }
+        #profile{
+           float: left;
+            height: 50%;
+            margin: 30px;
+            width: 100%;
+            border-radius: 20px;
+           
+        }
+    }
+ 

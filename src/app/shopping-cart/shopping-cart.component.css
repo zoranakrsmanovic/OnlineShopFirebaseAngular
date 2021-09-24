@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Dynalight&family=Lily+Script+One&family=Molle:ital@1&family=Poiret+One&family=Thasadith&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300&display=swap');
+#wrapp{
+    width: 80%;
+  
+   
+}
+.wrapptitle{
+    height: 150px;
+    width: 30%;
+}
+.wrappprice{
+   
+    height: 150px;
+    width: 30%;
+}
+.detail{
+   
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    background: transparent;
+    border: none;
+}
+#title{
+    font-family: 'Poiret One', cursive; 
+    font-size: 25px;
+    color: rgba(85, 82, 82, 0.884);
+    text-shadow: 1px 1px 3px rgb(173, 163, 163);
+
+}
+.qtybtn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 7px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 9px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 5px;
+  }
+  
+  .qtybtn {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #555555;
+  }
+  
+  .qtybtn:hover {
+    background-color: #555555;
+    color: white;
+  }
+.qtynum{
+    width: 20px;
+}
+  .qtynump{
+     
+      margin: 0 auto;
+      
+  }
+#border{
+    height: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-top: 70px;
+    font-family: 'Poiret One', cursive; 
+    border-bottom: 1px solid #55555575;
+    color: rgba(85, 82, 82, 0.884);
+    text-shadow: 1px 1px 3px rgb(173, 163, 163);
+    font-size: 35px;
+}
+
+.card{
+ height: 150px;
+ margin: 15px;
+ box-shadow: 10px 10px 60px -17px rgba(0,0,0,0.87);
+-webkit-box-shadow: 10px 10px 60px -17px rgba(0,0,0,0.87);
+-moz-box-shadow: 10px 10px 60px -17px rgba(0,0,0,0.87);
+border-bottom-left-radius:15px ;
+border-top-right-radius:15px ;
+}
+.left{
+    float: left;
+    width: 30%;
+}
+.right{
+    float: left;
+    width: 69%;
+}
+.prodImg{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    border-bottom-left-radius:15px ;
+}
+h3{
+    margin-top: 10px;
+   height: 60px;
+    width: 90%;
+    margin-left: 5%;
+    font-family: 'Poiret One', cursive; 
+    font-size: 20px;
+    background: linear-gradient(90deg,  rgba(252,146,70,1) 0%, rgba(222,36,74,1) 140%);
+    padding: 5px;
+    color:floralwhite;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.clear{
+     color: #f05c60; 
+     background-color: transparent;
+     border: none;
+}
+#ckeckOut{
+  float: right;
+  background: linear-gradient(90deg,  rgba(252,146,70,1) 0%, rgba(222,36,74,1) 140%);
+  color: aliceblue;
+  font-family: 'Poiret One', cursive; 
+  width: 130px;
+  height: 40px;
+}
+h4{
+    margin-top: 40px;
+    height: 100px;
+    font-family: 'Spartan', sans-serif;
+    font-size: 30px;
+    color: #555555c4;
+}
+
+
+
+
+    
+    /* iPhone 5 ----------- */
+    @media only screen and (min-device-width: 310px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    #title{
+        font-size: 10px;
+    }
+    .detail{
+        font-size: 10px;
+    }
+    .card{
+        height: 300px;
+    }
+    .prodImg{
+        height: 50px;
+        width: 50px;
+    }
+    .wrapptitle{
+        height: 150px;
+        width: 20%;
+    }
+    .wrappprice{
+        height: 150px;
+        width: 20%;
+    }
+    .qtybtn {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 5px 7px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 5px;
+        margin: 3px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        height: 20px;
+        border-radius: 5px;
+      }
+      .qtybtn {
+        background-color: white; 
+        color: black; 
+        border: 2px solid #555555;
+      }
+      
+      .qtybtn:hover {
+        background-color: #555555;
+        color: white;
+      }
+    .qtynum{
+        width: 20px;
+    }
+      .qtynump{
+         
+          margin: 0 auto;
+          
+      }
+    }
+    
+    @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+        #title{
+            font-size: 10px;
+        }
+        .detail{
+            font-size: 10px;
+        }
+       
+        .prodImg{
+            height: 50px;
+            width: 50px;
+            margin-top: 50px;
+        }
+        .wrapptitle{
+            margin-top: 12px;
+            height: 150px;
+            width: 20%;
+        }
+        .wrappprice{
+            height: 150px;
+            width: 20%;
+            margin-top: 12px;
+        }
+        .qtybtn {
+           background-color: rgba(0, 0, 0, 0.322);
+            border: none;
+            color: white;
+            padding: 5px 7px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 9px;
+            margin: 3px 3px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            height: 20px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+          }
+        
+    }
+    
+    /* iPhone 6, 7, 8 ----------- */
+    @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+        #title{
+            font-size: 15px;
+        }
+        .detail{
+            font-size: 15px;
+        }
+        .prodImg{
+            height: 80px;
+            width: 80px;
+            margin-left: 6px;
+            margin-top: 30px;
+        }
+    .qtybtn{
+        height: 25px;
+        width: 25px;
+        padding: 1px 5px;
+        margin-bottom: 20px;
+    }
+    .qtynump{
+        margin-bottom: 10px;
+    }
+    .clear{
+        margin-bottom: 10px;
+    }
+
+   
+        
+       
+        
+       
+        
+    
+    }
+    
+    /* iPhone 6+, 7+, 8+ ----------- */
+    @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+        .prodImg{
+            margin-left: 1px;
+        }
+    }
+    
+    @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+        .prodImg{
+            margin-left: 1px;
+        }
+    }
+    
+    /* iPhone X ----------- */
+    @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+        .prodImg{
+            margin-left: 1px;
+        }
+        #ckeckOut{
+            margin-right: 30px;
+            margin-bottom: 30px;
+        }
+    }
+    
+    /* iPhone XS Max, XR ----------- */
+    @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+        .prodImg{
+            margin-left: 1px;
+        }
+        #ckeckOut{
+            margin-right: 30px;
+            margin-bottom: 30px;
+        }
+        .detail{
+            font-size: 13px;
+            margin-left: 2px;
+        }
+    
+    }
+    
+    @media only screen and (min-device-width: 375px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+        .prodImg{
+            margin-left: 1px;
+        }
+        #ckeckOut{
+            margin-right: 30px;
+            margin-bottom: 30px;
+        }
+        #title{
+            font-size: 15px;
+            margin-left: 6px;
+        }
+        
+    }
+    
+    /* Samsung Galaxy S3 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    }
+    
+    /* Samsung Galaxy S4 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
+    /* Samsung Galaxy S5 ----------- */
+    @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }

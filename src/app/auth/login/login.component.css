@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital@1&family=Cantarell&family=Red+Hat+Display:ital@0;1&display=swap');
+#subButton{
+    background: linear-gradient(90deg, rgba(222,36,74,1) 0%, rgba(252,146,70,1) 100%);
+    width: 120px;
+    color: white;
+    font-family: 'Poiret One', cursive;
+    
+
+}
+
+.matInput{
+    width: 400px !important;
+}
+
+form{
+    
+    padding: 30px;
+    border-radius: 10px;
+    
+
+}
+
+
+#loginSection{
+    margin-top: 20px;
+    float: right;
+    width: 48%;
+   
+    height: 90%;
+
+   
+    
+}
+#svgSection{
+    width: 50%;
+    float: left;
+   
+    height: 90%;
+
+}
+
+#key{
+    animation: key 4s infinite ease-in-out;
+    transform-origin: bottom;
+    transform-box: fill-box;
+    
+}
+@keyframes key{
+  
+    0% {transform: rotateZ(0) translateX(0px) translateY(-10px);}
+    50% { transform: rotateZ(0) translateX(-4px) translateY(-20px);}
+    100% {transform: rotateZ(0) translateX(0px) translateY(-10px);}
+}
+h2{
+    height: 80px;
+    font-size: 30px;
+    font-family: 'Cantarell', sans-serif;
+    color: rgba(0, 0, 0, 0.562);
+   
+}
+small{
+    color: red;
+}
+#new{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #8f8f8f;
+}

@@ -1,0 +1,97 @@
+#left{
+    height: 100vh;
+    width: 49%;
+   
+    float: left;
+}
+#right{
+    height: auto;
+    width: 50%;
+   margin-top: 250px;
+ 
+    float: right;
+   
+}
+#img{
+    height: 600px;
+    width: 600px;
+    -webkit-box-shadow: 2px 4px 30px 2px rgba(0,0,0,0.46); 
+    box-shadow: 2px 4px 30px 2px rgba(0,0,0,0.46);
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+}
+#content{
+    margin-left: 5%;
+    width: 80%;
+    
+}
+#title{
+ 
+    margin-bottom: 0px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: #f05c60;
+    text-shadow: 3px 3px 5px rgb(184, 99, 99);
+
+}
+#line{
+   
+    height: 10px;
+    width: 38%;
+    margin-bottom: 60px;
+ 
+}
+#goBack:hover{
+color:#f05c60;
+}
+
+#price{
+    
+    font-family: 'Spartan', sans-serif;
+}
+#cat{
+    font-family: 'Spartan', sans-serif;
+}
+#desc{
+    text-align: justify;
+    font-family: 'Spartan', sans-serif;
+    
+    margin-bottom: 40px;
+}
+#add_to_cart{
+    
+    background: linear-gradient(90deg, rgba(222,36,74,1) 0%, rgba(252,146,70,1) 100%);
+    width: 150px;
+    height: 35px;
+    color: white;
+    font-family: 'Poiret One', cursive;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.cartIcon{
+  font-size: 20px;
+}
+#border{
+    margin-top: 50px;
+    height: 50px;
+    border-top: 1px solid rgba(80, 78, 78, 0.534);
+    font-family: 'Spartan', sans-serif;
+    color:  rgba(80, 78, 78, 0.534);
+    font-size: 20px;
+}
+#comments{
+    width: 300px;
+}
+#commentForm{
+    width: 500px;
+}
+.commentsCard{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+}
+.line{
+    border-bottom: rgba(80, 78, 78, 0.534);
+    height: auto;
+}

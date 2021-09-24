@@ -1,0 +1,53 @@
+<section   >
+    <div  id="profile" fxLayout="column" fxLayoutAlign="start">
+    <div   class="user_information">
+        <h2 class="card" fxLayoutAlign="center" >Profile card</h2>
+        
+    <h2 id="welcome" fxLayoutAlign="center" >Welcome - {{email}}</h2>
+       
+        <div  id="userdetail" *ngFor="let userdetail of user">
+        <p class="detail" fxLayoutAlign="center" >First name :  {{userdetail.name}} </p>
+        <p class="detail" fxLayoutAlign="center">Address :    {{userdetail.address}} </p>
+        <p class="detail" fxLayoutAlign="center">Birth date :  {{userdetail.birthDate}} </p>
+        </div>
+        
+
+        
+</div>
+
+<form id="formUpdate" fxLayout="column" fxLayoutAlign="center" fxLayoutGap="15px" 
+#f="ngForm" >
+   <h2 fxLayoutAlign="center" id="update" > Update details &nbsp; <mat-icon>
+    manage_accounts
+   </mat-icon></h2>
+    <mat-form-field  class="matInput">
+        <input type="text" id="name" matInput placeholder="Full name" name="name"   [(ngModel)]="name"
+         >
+    </mat-form-field>
+    <mat-form-field  class="matInput">
+        <input type="text"  matInput placeholder="address" name="address" [(ngModel)]="address"
+         > 
+        </mat-form-field>
+    <mat-form-field  class="matInput">
+        <input type="date"  matInput placeholder="birthDate" name="birthDate"  [(ngModel)]="birthDate"
+        > 
+    </mat-form-field>
+   
+ 
+
+
+    <button  mat-raised-button id="subButton"  [disabled]="f.invalid" (click)="fillUser()">Update</button>
+  
+</form>
+
+
+</div>
+
+<div id="orders">
+    <app-orders></app-orders>
+    </div>
+    
+    
+</section>
+
+

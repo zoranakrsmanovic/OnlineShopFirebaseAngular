@@ -1,0 +1,35 @@
+
+<h3   fxLayoutAlign="center center">Your Cart <mat-icon> shopping_cart</mat-icon></h3>
+<div  fxLayout="row wrap" fxLayoutAlign="center center" >
+  
+<div id ="wrapp" fxFlex="90%" fxFlex.sm="80%" fxFlex.xs="100%">
+  <div *ngIf="empty" fxLayoutAlign="center center"><h4 > Your cart is empty</h4>  </div>
+    <div class="card" *ngFor="let product of items">
+      <div class="left">
+      <img class="prodImg" src="{{product.image}}">
+      
+    </div>
+    <div class="right" fxLayout="row"    >
+      <div class="wrapptitle" fxLayoutAlign="center center" fxFlex.sm="30%" fxFlex.xs="30%" >
+        <h4 class="detail" id="title"> {{product.title}} </h4>
+        </div  >
+        <div class="wrappprice" fxLayoutAlign="center center">
+        <h4 class="detail"><b>${{product.price}}</b> </h4>
+        </div>
+<div  class="wrapptitle" fxLayout="row" fxLayoutAlign="center center"  >
+  
+        <button class="qtybtn" (click)="updateQtyMinus(product.id, product.quantity)"> - </button><div fxLayoutAlign="center center" class="qtynum" > <p class="qtynump"> {{product.quantity}} </p></div> <button class="qtybtn" (click)="updateQtyPlus(product.id, product.quantity)" > + </button>
+        </div>
+        <button  class="detail" (click)="deteteOneItem(product.id)"><mat-icon class="clear">clear </mat-icon></button>
+     
+    </div>
+    </div>
+    
+    <div id="border">Your total bill: $ {{total}}</div>
+    <button id="goShoping"  mat-button routerLink="/products"><mat-icon> keyboard_double_arrow_left</mat-icon>  Go shopping</button>
+    <button id="ckeckOut" mat-button (click)="checkOut()">Check out</button>
+  </div>
+  
+</div>
+
+ 

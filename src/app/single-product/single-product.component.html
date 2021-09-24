@@ -1,0 +1,54 @@
+<div id="wrapper" *ngFor="let product of item">
+    <div id="left" fxLayoutAlign="center center" >
+    <img id="img" src="{{product.image}}">
+    
+    </div>
+    
+    <div id="right" fxLayout="row" fxLayoutAlign=" center" >
+    <div id="content"  >
+    <div><h1 id="title" > {{product.title}} </h1></div>
+    <div id="line"></div>
+    <div><p id="cat"> Category : {{product.category}} </p></div>
+    <div><h3 id="price"> <b>Price</b> : $ {{product.price}} </h3></div>
+    <div id="desc"><p> <b>Description</b> : {{product.description}} </p></div>
+    
+
+
+
+   
+    
+    
+   
+    <button mat-button id="add_to_cart" (click)="addToCart(product)" >Add to cart <mat-icon class="cartIcon">shopping_cart</mat-icon> </button>
+    <button mat-button id="goBack" (click)="goBack()">Go back</button>
+    <div id="border" fxLayoutAlign="start center">Comments</div>
+    
+    <div id="comments"  >
+<div >
+        <mat-card class="commentsCard" *ngFor="let c of comments">
+            <mat-card-subtitle>
+             <i> {{c.user}}</i> - <i> {{c.createdAt}} </i>
+             <div class="line"> </div>
+            </mat-card-subtitle>
+            <mat-card-content>
+                <p>{{c.comment}} </p>
+            </mat-card-content>
+            <mat-card-footer>
+               
+            </mat-card-footer>
+
+        </mat-card>
+</div>
+
+
+        <form id="commentForm">
+        <mat-form-field id="commentForm" class="example-full-width" appearance="fill">
+            <mat-label>Leave a comment</mat-label>
+            <textarea matInput placeholder="Type here..."  name="comment"  [(ngModel)]="comment" ></textarea>
+          </mat-form-field>
+          <button id="add_to_cart" mat-button (click)="leaveAComment(product.id)"> Submit</button>
+        </form>
+    </div>
+    </div>
+    </div>
+    </div>

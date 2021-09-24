@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.mat-toolbar.mat-primary {
+    background: #fff;
+    color: #fff;
+    -webkit-box-shadow: 0px 40px 1px 1px rgba(0,0,0,0.10); 
+    box-shadow: 0px 1px 40px 1px rgba(0,0,0,0.10);
+    height: 50px;
+  }
+  .menuButton{
+      background-color: transparent;
+      color: #F4546A;
+      border: none;
+  }
+  a{
+      text-decoration: none;
+      color: #303030;
+      font-family: 'Poiret One', cursive;
+  }
+  a:hover{
+      color: #F9743D;
+  }
+  
+.icons{
+    font-size: 15px;
+    color:#F4546A;
+
+}
+mat-sidenav-content, mat-sidenav-container, mat-sidenav{
+    height: 100%;
+    
+
+}
+mat-sidenav{
+    width: 270px;
+    
+}
+.sidenavLink{
+    font-family: 'Poiret One', cursive;
+    font-weight: 600;
+    
+}
+
+.sidenavIcon{
+    margin-right: 15px;
+    color: #F4546A;
+}
+
