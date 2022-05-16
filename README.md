@@ -1,4 +1,9 @@
-# Kvaonlineshop
+# Klijentske web aplikacije - Online shop
+
+
+https://user-images.githubusercontent.com/81091010/168568283-8d50dac3-606e-41a0-9fe2-d3cbd94f5a93.mov
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.2.
 
